@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Frankfurter Medium';
+  src: url('font/Frankfurter Medium Regular.ttf')
+}
+body{
+  color: #271D19;
+  font-family: Frankfurter Medium;
+  font-size: 22px;
+}
+main{
+  padding: 10px;
+  max-width: 500px;
+  margin:0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 50px; 
+  height: auto;
+}
+
+header a{
+  text-decoration:none;
+  color: inherit;
+}
+
+header nav{
+  display:flex;
+}
