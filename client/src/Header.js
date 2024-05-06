@@ -10,7 +10,7 @@ export default function header (){
     </Link>
 
     <nav>
-      <Link to="/login">Login</Link>   
+      <Link to="/login">Se connecter</Link>   
     </nav>
 
   </header>

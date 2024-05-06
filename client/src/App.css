@@ -6,6 +6,9 @@
     font-family: 'Bubbleboddy Neue';
     src: url('Font/BubbleboddyNeue-Light.ttf')
 }
+*{
+  box-sizing: border-box;
+}
 img{
   max-width: 100%;
 }
@@ -13,10 +16,11 @@ body{
   color: #271D19;
   font-family: 'Bubbleboddy Neue', sans-serif;
   font-size: 22px;
+  background-color: #FFF3DD;
 }
 main{
   padding: 10px;
-  max-width: 700px;
+  max-width: 800px;
   margin:0 auto;
 }
 
@@ -26,6 +30,7 @@ header{
   margin-bottom: 50px;
   font-family: 'Frankfurter Medium', sans-serif;
   align-items: center;
+  max-width: 1000px;
 }
 
 .logo img {
@@ -70,3 +75,37 @@ div.post p.resume{
   margin: 6px 0;
   line-height: 1.4rem;
 }
+
+form.login form.register{
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 1rem;
+  display:flex;
+}
+
+input{
+  display: block;
+  margin-bottom: 5px;
+  width: 50%;
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #f4b11342;
+  border-bottom: 2px solid #271D19;
+  text-decoration: none;
+  font-family: 'Bubbleboddy Neue';
+  font: #271D19;
+  font-size: 1rem;
+}
+
+button{
+  width: 50%;
+  display: block;
+  background-color: #f4b113;
+  border-bottom: 2px solid #271D19;
+  font-family: 'Frankfurter Medium', sans-serif;
+  font: #271D19;
+  font-size: 1rem;
+  padding: 7px 0px;
+}
+
